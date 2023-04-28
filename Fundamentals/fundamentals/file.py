@@ -13,6 +13,7 @@ person['name'] = 'George' #agregar dato
 person['eye_color'] = 'blue' #agregar dato
 print(fruit[2]) #imprimir segunda posicion (banana)
 
+
 if num1 > 45: #condicional (si)
     print("It's greater") #imprimir
 else: #condicional (si no)

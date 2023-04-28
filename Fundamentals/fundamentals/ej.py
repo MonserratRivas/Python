@@ -1,4 +1,4 @@
-dic_vacío = {}
+"""dic_vacío = {}
 new_person = {'name': 'John', 'edad': 38, 'peso': 160.2, 'usa_lentes': False}
 new_person['name'] = 'Jack'	# actualiza si la llave existe, agrega un par clave-valor si no
 new_person['hobbies'] = ['escalada', 'programación']
@@ -52,5 +52,87 @@ vegetales = ['lechuga', 'pepino', 'zanahorias']
 frutas_y_vegetales = frutas + vegetales
 print(frutas_y_vegetales)
 ensalada = 3 * vegetales
-print(ensalada)
+print(ensalada)"""
 
+
+"""for x in range(0, 10, 2):
+    print(x)
+# salida: 0, 2, 4, 6, 8
+
+for x in 'Hello':
+    print(x)
+# salida: 'H', 'e', 'l', 'l', 'o'"""
+
+
+"""mi_lista = ["abc", 123, "xyz"]
+for i in range(0, len(mi_lista)):
+    print(i, mi_lista[i])
+# salida: 0 abc, 1 123, 2 xyz
+    
+# O 
+    
+for v in mi_lista:
+    print(v)
+# salida: abc, 123, xyz"""
+
+
+# tupla
+"""perro = 'martillo','bomba','chiporro','ganado','ganado' /////una tupla puede o no puede usar () no es una exigencia
+for data in perro:
+    
+    print(data)"""
+
+
+# diccionarios (clave y valor)
+"""mi_dicc = { "nombre": "Noelle", "lenguaje": "Python" }
+for k in mi_dicc:
+    print(k)"""
+# salida: nombre, lenguaje
+
+"""
+capitales = {"Washington":"Olympia","California":"Sacramento","Idaho":"Boise","Illinois":"Springfield","Texas":"Austin","Oklahoma":"Oklahoma City","Virginia":"Richmond"}
+# otra forma de iterar a través de las claves
+for key in capitales.keys():
+    print(key)
+# salida: Washington, California, Idaho, Illinois, Texas, Oklahoma, Virginia
+# para iterar a través de los valores
+for val in capitales.values():
+    print(val)
+# salida: Olympia, Sacramento, Boise, Springfield, Austin, Oklahoma City, Richmond
+# para iterar a través de las claves y valores
+for key, val in capitales.items():
+    print(key, " = ", val)
+# salida: Washington = Olympia, California = Sacramento, Idaho = Boise, etc"""
+
+
+"""
+count = 0
+while count <= 5:
+    print("looping - ", count)
+    count += 1"""
+
+"""
+y = 3
+while y > 0:
+    print(y)
+    y = y - 1
+else:
+    print("Sentencia else final")"""
+
+"""
+for val in "cadena":
+    if val == "e":
+        continue
+    print(val)
+# salida: c, a, d, n, a
+# nota: no hay e en el resultado, pero el bucle continuó hasta después de la e """ 
+
+y = 3
+while y > 0:
+    print(y)
+    y = y - 1
+    if y == 0:
+        break
+    else:		# solo se ejecuta en una salida limpia del bucle while (es decir, no un break)
+        print("sentencia else final")
+# salida: 3, 2, 1
