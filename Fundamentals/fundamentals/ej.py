@@ -127,6 +127,8 @@ for val in "cadena":
 # salida: c, a, d, n, a
 # nota: no hay e en el resultado, pero el bucle continuó hasta después de la e """ 
 
+
+"""
 y = 3
 while y > 0:
     print(y)
@@ -135,4 +137,46 @@ while y > 0:
         break
     else:		# solo se ejecuta en una salida limpia del bucle while (es decir, no un break)
         print("sentencia else final")
-# salida: 3, 2, 1
+# salida: 3, 2, 1""" 
+
+"""
+new_val = add(3, 5)    # llamar la función con los argumentos 3 y 5
+print(new_val)    # el resultado de la función add se devuelve y guarda en new_val, por lo que veremos 8"""
+
+
+
+
+
+
+#DI HOLA
+"""
+def di_hola(nombre):
+    print("Hola, " + nombre)
+    return "ole" + nombre
+val = di_hola('michael')
+
+print(val) """
+
+"""
+def di_hola(nombre):
+    return "Hola " + nombre
+saludo = di_hola("Michael") # el valor devuelto por la función di_hola se asigna a la variable 'saludo'
+print(saludo) # esto dará como resultado 'Hola Michael """
+
+
+# def multiplicar(num_list, num):
+#     for x in num_list:
+#         x *= num
+#     return num_list
+# a = [2,4,10,16]
+# b = multiplicar(a,5)
+# print(b)
+# salida:
+# [2,4,10,16]
+# num1 = 5
+# num2 = 7
+# num1 = num1 + num2
+# print((num1))
+
+import random
+print(random.randint(6,10))

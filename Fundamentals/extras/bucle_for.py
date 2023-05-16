@@ -1,4 +1,4 @@
-"""#básico
+#básico
 for x in range(0,151):
     print(x)
 
@@ -17,8 +17,6 @@ for a in range(0,101):
         print("Coding Dojo")
 
     else:
-        print(a)""" 
+        print(a)
 
-
-#whoa es un gran idiota 
-for z in range(0,500000):
+#for z in range(0,500000):
