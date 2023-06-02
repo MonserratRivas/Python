@@ -13,10 +13,29 @@ for a in range(0,101):
     if a % 5 == 0:
         print("Coding")
 
-    elif a % 10 ==0:
+    elif a % 10 == 0:
         print("Coding Dojo")
 
     else:
         print(a)
 
-#for z in range(0,500000):
+
+#whoa. Es un gran idiota
+for n in range(0,500001,3):
+    print(n)
+
+
+#cuenta regresiva de 4
+count = 2018
+while count >= 0:
+    print(count)
+    count -= 4
+
+
+#contador flexible
+lowNum = 2
+highNum = 9
+mult = 3
+for num in range(lowNum, highNum + 1):
+    if num % mult == 0:
+        print(num)

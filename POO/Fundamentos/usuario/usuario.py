@@ -1,4 +1,4 @@
-"""class Usuario:
+class Usuario:
     def __init__(self):
         self.name = "Michael"
         self.email = "michael@codingdojo.com"
@@ -9,8 +9,7 @@ guido = Usuario()
 monty = Usuario()
 print(guido.name)
 print(monty.name)
-"""
-"""
+
 class Usuario:
     # declarando un atributo de clase
     nombre_banco = "Primer Dojo Nacional"		
@@ -24,8 +23,7 @@ monty = Usuario()
 guido.nombre_banco = "Dojo Credit Union"
 print(guido.nombre_banco) # salida: Dojo Credit Union 
 print(monty.nombre_banco) # salida: Primer Dojo Nacional
-"""
-"""
+
 class Usuario:
     nombre_banco = "Primer Dojo Nacional"
     def __init__(self , name, email_address, balance_cuenta):
@@ -49,7 +47,7 @@ print(f"Mi nombre es {catalina.name} , mi correo es {catalina.email} y mi cuenta
 print(f"Mi nombre es {naomi.name} y mi correo es {naomi.email}")
 print(f"Mi nombre es {javiera.name} y mi correo es {javiera.email}")
 print(f"Mi nombre es {matias.name} y mi correo es {matias.email}")
-"""
+
 
 class CuentaBancaria:
     # atributo de clase
