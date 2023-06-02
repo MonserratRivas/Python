@@ -4,11 +4,11 @@ class Registro:
         self.tiempo = tiempo
 
     def agregar_usuario(self):
-        pass
+        self.usuario.agregar_usuario()
 
     def registrar_entrada(self):
-        pass
+        self.usuario.entrada.registrar_entrada()
 
     def registrar_salida(self):
-        pass
+        self.usuario.salida.registrar_salida()
 

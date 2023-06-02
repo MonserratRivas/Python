@@ -4,4 +4,4 @@ class SistemaAsistencia:
         self.registro = registro
 
     def listar_registros(self):
-        pass
+        self.usuario.registro.listar_registros()

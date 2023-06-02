@@ -15,7 +15,14 @@ while True:
     Option = input("Escoja una opción: ")
 
     if Option == "1":
-        pass
+        print("+-------------------------------------+")
+        print("|       Ingresar nuevo Usuario        |")
+        print("+-------------------------------------+")
+        nombre = input("-Ingrese su Nombre: ")
+        apellido = input("-Ingrese su Apellido: ")
+        print("+-------------------------------------+")
+        print("|       Nuevo Usuario ingresado       |")
+        print("+-------------------------------------+")
 
     elif Option == "2":
         pass
@@ -26,7 +33,7 @@ while True:
     elif Option == "4":
         pass
 
-    elif Option == "0":
+    elif Option == "0":   
         print("¡Hasta luego!")
         break
 
