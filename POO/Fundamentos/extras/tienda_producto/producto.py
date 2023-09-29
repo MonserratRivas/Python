@@ -1,5 +1,5 @@
 class Producto:
-    def __init__(self, nombre, precio, categoria):
+    def __init__(self, nombre, precio, categoria): #atributos
         self.nombre = nombre
         self.precio = precio
         self.categoria = categoria
@@ -10,9 +10,11 @@ class Producto:
 
         else:
             self.precio -= self.precio * cambio_porcentaje /100
+        return self
 
     def imprimir_info(self):
-        print(f"---El nombre del producto es: {self.nombre} La categoria es: {self.categoria} El precio del producto es: {self.precio}")
+        print(f"---El nombre del producto es: {self.nombre} ---La categoria es: {self.categoria} ---El precio del producto es: {self.precio}")
+        return self
 
 """
     producto1 = Producto("Confort", 1200, "higiene") #texto con "" y números sin ""

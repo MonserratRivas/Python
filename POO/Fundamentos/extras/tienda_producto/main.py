@@ -6,6 +6,7 @@ def mostrar_menu():
     print("Option 1: Registrar Nuevo producto")
     print("Opcion 2: Registrar una venta")
     print("Opcion 3: Listar Productos ")
+    print("Opcion 4: Actualizar Productor")
     print("Opcion 0: Salir")
 
 def main():
@@ -20,13 +21,25 @@ def main():
             
             nuevo_producto = Producto(nombre, precio, categoria)
             tienda1.agregar_producto(nuevo_producto)
-            print("-----Producto Creado-----")
+            print("-----Producto Agregado-----")
+
         if Option == "2":
             pass
-        elif Option == "3":
+
+        if Option == "3":
             tienda1.listar_productos()
-        elif Option == "0":
+
+        if Option == "4":
+            nombre = input("Ingrese el nombre del producto: ")
+            precio = input("Ingrese el precio del producto: ")
+            categoria = input("Ingrese la categoria del producto: ")
+            nuevo_producto = Producto(nombre, precio, categoria)
+            tienda1.actualizar_producto(nuevo_producto)
+            print("-----Producto Creado-----")
+
+        if Option == "0":
             pass 
+
         else: 
             pass
 

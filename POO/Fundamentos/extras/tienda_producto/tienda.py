@@ -20,6 +20,19 @@ class Tienda:
             x.imprimir_info()
         return self
 
+
+    def actualizar_producto(self, producto):
+        for x in self.lista:
+            if x.nombre == id:
+                x.nombre = producto.nombre
+                x.precio = producto.precio
+                x.categoria = producto.categoria
+                print("--El producto se modifico correctamente--")
+            else: 
+                print("El producto no existe.")
+        return self
+
+
     def inflación(self, porcentaje_aumento): 
         pass
 
